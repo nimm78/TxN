@@ -27,16 +27,23 @@ dart=$(cat /etc/hosts | grep -w `hostname` | awk '{print $2}')
 if [[ "$hst" != "$dart" ]]; then
 echo "$localip $(hostname)" >> /etc/hosts
 fi
-
+clear
+echo -e "${red}JIRR NESAAAAAA COKK WKWK${NC}"
+sleep 1
+echo -e "${red}TIMIN SAYANG BANGET KE NESAAAA${NC}"
+sleep 1
+echo -e "${red}AJA DE MESUM I NESA BLOG${NC}"
+sleep 1
+echo -e "${red}AJA GIRI DE ENTOD${NC}"
+sleep 1
+echo -e "${red}DEJAGA MBOKANN NESAAA NGANTI DI GANGBANG WKWK${NC}"
+clear
+sleep 1
 echo -e "[ ${tyblue}NOTES${NC} ] Before we go.. "
 sleep 1
 echo -e "[ ${tyblue}NOTES${NC} ] I need check your headers first.."
 sleep 2
 echo -e "[ ${green}INFO${NC} ] Checking headers"
-  sleep 2
-  echo -e "[ ${yell}WARNING${NC} ] Try to install ...."
-  echo "No $REQUIRED_PKG. Setting up $REQUIRED_PKG."
-  apt-get --yes install $REQUIRED_PKG
   sleep 1
   echo ""
   sleep 1
